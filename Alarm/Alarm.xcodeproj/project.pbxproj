@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BAAFAAC2624CBCF00260FCB /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAAFAAB2624CBCF00260FCB /* Alarm.swift */; };
+		0BAAFAAF2624D6BB00260FCB /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAAFAAE2624D6BB00260FCB /* Notifications.swift */; };
 		1AA4D29D209BC5950018F67F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA4D29C209BC5950018F67F /* AppDelegate.swift */; };
 		1AA4D29F209BC5950018F67F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA4D29E209BC5950018F67F /* ViewController.swift */; };
 		1AA4D2A2209BC5950018F67F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA4D2A0209BC5950018F67F /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BAAFAAB2624CBCF00260FCB /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		0BAAFAAE2624D6BB00260FCB /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		1AA4D299209BC5950018F67F /* Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA4D29C209BC5950018F67F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AA4D29E209BC5950018F67F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				1AA4D2A3209BC59A0018F67F /* Assets.xcassets */,
 				1AA4D2A5209BC59A0018F67F /* LaunchScreen.storyboard */,
 				1AA4D2A8209BC59A0018F67F /* Info.plist */,
+				0BAAFAAB2624CBCF00260FCB /* Alarm.swift */,
+				0BAAFAAE2624D6BB00260FCB /* Notifications.swift */,
 			);
 			path = Alarm;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BAAFAAF2624D6BB00260FCB /* Notifications.swift in Sources */,
 				1AA4D29F209BC5950018F67F /* ViewController.swift in Sources */,
 				1AA4D29D209BC5950018F67F /* AppDelegate.swift in Sources */,
+				0BAAFAAC2624CBCF00260FCB /* Alarm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
